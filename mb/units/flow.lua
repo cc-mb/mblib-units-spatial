@@ -3,7 +3,7 @@ local Type = require "mb.units.base.type"
 local Volume = require "mb.units.volume"
 local Time = require "mb.units.time"
 
---- Power units.
+--- Flow units.
 local Flow = Type.new()
 
 --- Units cross product.

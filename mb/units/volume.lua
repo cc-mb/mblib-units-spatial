@@ -3,7 +3,7 @@ local Type = require "mb.units.base.type"
 local Prefix = require "mb.units.prefix"
 local Length = require "mb.units.length"
 
---- Length units.
+--- Volume units.
 local Volume = Type.new()
 
 Volume:register_base(Length["base"] ^ 3)
